@@ -121,7 +121,7 @@
     <value>"AuthType=AD;Url={0}; Domain={1}; Username={2}; Password={3}"</value>
   </data>
   <data name="Federation" xml:space="preserve">
-    <value>"AuthType=IFD;Url={0}/{1}; Domain={2]; Username={3}; Password={4}"</value>
+    <value>"AuthType=IFD;ServiceUri={0}/{1}; Domain={2]; Username={2}\\{3}; Password={4}"</value>
   </data>
   <data name="OnlineFederation" xml:space="preserve">
     <value>"AuthType=IFD;Url={0}; HomeRealmUri={1};Domain={2}; Username={3}; Password={4}"</value>
